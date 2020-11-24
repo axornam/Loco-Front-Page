@@ -12,3 +12,99 @@ body {
 p {
   font-size: 14px;
 }
+
+/* Header Styling */
+.header {
+  background-image: url("../img/header-bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50% ;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.header-overlay {
+  background-color: rgba(31, 31, 31, 0.75);
+}
+
+.logo {
+  padding-bottom: 50px;
+}
+
+.header-text h1 {
+  color: white;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 45px;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+.header-text p {
+  color: white;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+.header-btns {
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.btn-download,
+.btn-download:focus, 
+.btn-download:active, 
+.btn-download:visited {
+  background: transparent;
+  border-color: #129cf3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 19px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+}
+
+.btn-download:hover {
+  background-color: #129cf3;
+  color: white;
+}
+
+.btn-tour,
+.btn-tour:focus,
+.btn-tour:active,
+.btn-tour:visited {
+  color: #a9adb0;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: 500;
+  background-color: transparent;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+}
+
+.btn-tour:hover {
+  color: white;
+}
+
+.btn-tour i {
+  font-size: 20px;
+  padding-left: 5px;
+  color: #129cf3;
+}
+
+
+.header-iphone img {
+  width: 100%;
+}
