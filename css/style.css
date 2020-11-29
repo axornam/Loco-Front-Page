@@ -348,3 +348,36 @@ p {
   font-weight: 300;
   line-height: 25px;
 }
+
+/* PURCHASE NOW */
+.purchase-now {
+  background-color: #1a1a1a;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.purchase-now p {
+  color: #dfdfdf;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.btn-purchase-now,
+.btn-purchase-now:active,
+.btn-purchase-now:visited,
+.btn-purchase-now:focus {
+  background-color: #129cf3;
+  border: 1px solid #129cf3;
+  color: white;
+  padding: 15px 35px;
+  text-transform: uppercase;
+  transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.btn-purchase-now:hover {
+  background-color: #1274b1;
+  border-color: #316b90;
+}
