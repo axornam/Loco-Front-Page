@@ -1,215 +1,215 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  /* font-family: Helvetica, sans-serif; */
-  overflow-y: scroll;
-  overflow-x: hidden;
+    /* font-family: Helvetica, sans-serif; */
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 p {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 /* Generic Styling -  */
 .section-title {
-  padding-top: 90px;
-  padding-bottom: 50px;
-  /* text-align: center; */
+    padding-top: 90px;
+    padding-bottom: 50px;
+    /* text-align: center; */
 }
 
 .section-title h2 {
-  position: relative;
-  text-align: center;
-  color: #333;
-  font-size: 30px;
-  font-weight: 400px;
-  text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400px;
+    text-transform: uppercase;
 }
 
 .section-title h2:after {
-  content: "";
-  position: absolute;
-  bottom: -20px;
-  left: 50%;
-  width: 60px;
-  height: 1px;
-  background-color: #129cf3;
-  margin-left: -30px;
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    background-color: #129cf3;
+    margin-left: -30px;
 }
 
 .section-title p {
-  color: #333;
-  font-size: 18px;
-  margin-top: 45px;
-  line-height: 28px;
-  font-weight: 300;
-  text-align: center;
+    color: #333;
+    font-size: 18px;
+    margin-top: 45px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
 }
 
 /* Header Styling */
 .header {
-  background-image: url("../img/header-bg.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
+    background-image: url("../img/header-bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
 }
 
 .header-overlay {
-  background-color: rgba(31, 31, 31, 0.75);
+    background-color: rgba(31, 31, 31, 0.75);
 }
 
 .logo {
-  padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .header-text h1 {
-  color: white;
-  font-size: 35px;
-  font-weight: 300;
-  line-height: 45px;
-  padding-top: 30px;
-  text-transform: uppercase;
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 45px;
+    padding-top: 30px;
+    text-transform: uppercase;
 }
 
 .header-text p {
-  color: white;
-  font-size: 17px;
-  line-height: 28px;
-  font-weight: 300;
+    color: white;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 300;
 }
 
 .header-btns {
-  margin-top: 90px;
-  margin-bottom: 50px;
+    margin-top: 90px;
+    margin-bottom: 50px;
 }
 
 .btn-download,
 .btn-download:focus,
 .btn-download:active,
 .btn-download:visited {
-  background: transparent;
-  border-color: #129cf3;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  font-size: 19px;
-  text-transform: uppercase;
-  border-radius: 3px;
-  transition: all 1s;
-  -webkit-transition: all 1s;
-  -o-transition: all 1s;
-  -moz-transition: all 1s;
+    background: transparent;
+    border-color: #129cf3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
 }
 
 .btn-download:hover {
-  background-color: #129cf3;
-  color: white;
+    background-color: #129cf3;
+    color: white;
 }
 
 .btn-tour,
 .btn-tour:focus,
 .btn-tour:active,
 .btn-tour:visited {
-  color: #a9adb0;
-  margin-left: 20px;
-  text-transform: uppercase;
-  font-size: 19px;
-  font-weight: 500;
-  background-color: transparent;
-  transition: all 1s;
-  -webkit-transition: all 1s;
-  -o-transition: all 1s;
-  -moz-transition: all 1s;
+    color: #a9adb0;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 500;
+    background-color: transparent;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
 }
 
 .btn-tour:hover {
-  color: white;
+    color: white;
 }
 
 .btn-tour i {
-  font-size: 20px;
-  padding-left: 5px;
-  color: #129cf3;
+    font-size: 20px;
+    padding-left: 5px;
+    color: #129cf3;
 }
 
 .header-iphone img {
-  width: 100%;
+    width: 100%;
 }
 
 /* ABOUT STYLING */
 .choose-us-wrapper {
-  padding-top: 50px;
+    padding-top: 50px;
 }
 
 .about-iphone img {
-  padding-top: 8px;
+    padding-top: 8px;
 }
 
 .choose-us-title {
-  padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .choose-us-title h2 {
-  text-transform: uppercase;
-  font-weight: 800;
-  font-size: 30px;
-  line-height: 37px;
-  position: relative;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    position: relative;
 }
 
 .choose-us-title h2:after {
-  content: "";
-  position: absolute;
-  bottom: -12px;
-  width: 70px;
-  height: 1px;
-  left: 0;
-  background-color: #129cfb;
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    width: 70px;
+    height: 1px;
+    left: 0;
+    background-color: #129cfb;
 }
 
 .choose-us-title p {
-  margin-top: 40px;
-  font-size: 19px;
-  line-height: 24px;
+    margin-top: 40px;
+    font-size: 19px;
+    line-height: 24px;
 }
 
 .choose-us-item {
-  position: relative;
-  padding-bottom: 4px;
-  padding-left: 80px;
+    position: relative;
+    padding-bottom: 4px;
+    padding-left: 80px;
 }
 
 .choose-us-item div {
-  position: absolute;
-  top: 0;
-  left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .choose-us-item div i {
-  font-size: 50px;
-  color: #129cf3;
-  transition: all 1s;
-  -moz-transition: all 1s;
-  -o-transition: all 1s;
-  -webkit-transition: all 1s;
+    font-size: 50px;
+    color: #129cf3;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
 }
 
 .choose-us-item h3 {
-  color: #343434;
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 800;
+    color: #343434;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 .choose-us-item p {
-  color: #727272;
-  font-size: 15px;
+    color: #727272;
+    font-size: 15px;
 }
