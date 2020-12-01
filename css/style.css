@@ -602,3 +602,39 @@ p {
 .social-icons ul li a i {
   font-size: 20px;
 }
+
+.footer {
+  background-color: #1a1a1a;
+  padding-bottom: 35px;
+  padding-top: 35px;
+  border-bottom: 20px solid#129cf3;
+}
+
+#copyright {
+  width: 50%;
+}
+
+#copyright p {
+  font-weight: 600;
+  color: #8c8b8a;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+#copyright p a {
+  text-decoration: none;
+  color: #129cf3;
+}
+
+.scroll-top {
+  text-align: right;
+}
+
+.scroll-top a {
+  background-color: #129cf3;
+  padding: 25px;
+}
+
+.scroll-top a i {
+  color: white;
+  font-size: 25px;
+}
