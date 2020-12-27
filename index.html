@@ -11,7 +11,54 @@
   </head>
   <body>
     <!-- Header  -->
-    <header class="header">
+    <header class="header" id="home">
+      <!-- Navigation Bar -->
+      <nav
+        class="navbar navbar-expand-lg navbar-default navbar-light fixed-top"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <!-- Small Size Logo -->
+            <img src="./img/logo-small.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#loso-navbar-collapse-1"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="loso-navbar-collapse-1">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home">HOME</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#features">FEATURES</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#screens">SCREENS</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#download">DOWNLOAD</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header Overlay -->
       <div class="header-overlay">
         <div class="container">
           <div class="row">
@@ -49,7 +96,7 @@
     </header>
 
     <!-- About Us-->
-    <section>
+    <section id="about">
       <div class="container">
         <div class="row">
           <div class="col-md-10 col-md-offset-1 ml-auto mr-auto">
@@ -235,7 +282,7 @@
     </section>
 
     <!-- Features Section -->
-    <section class="features">
+    <section class="features" id="features">
       <div class="container">
         <div class="row">
           <div class="col-md-10 mr-auto ml-auto">
@@ -360,7 +407,7 @@
               aperiam eligendi dolores cumque? Tenetur dolorum, voluptatibus aut
               veritatis quasi earum magnam ipsum cum ipsam quo excepturi fuga
               asperiores sed dicta, qui vitae illum commodi molestias ullam
-              assumenda delectus reprehenderit! Optio?
+              assumenda delectus reprehenderit!
             </p>
           </div>
           <div class="col-md-3">
@@ -371,7 +418,7 @@
     </section>
 
     <!-- Screens Section -->
-    <section class="screens">
+    <section class="screens" id="screens">
       <div class="container">
         <div class="row">
           <div class="col-md-10 mr-auto ml-auto">
@@ -470,7 +517,7 @@
     </section>
 
     <!-- Download Now -->
-    <section class="download-now">
+    <section class="download-now" id="download">
       <div class="container">
         <div class="row">
           <div class="col-md-10 mr-auto ml-auto">
@@ -543,7 +590,7 @@
     </section>
 
     <!-- Contact Us -->
-    <section class="contact-us">
+    <section class="contact-us" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-md-10 mr-auto ml-auto">
@@ -628,6 +675,7 @@
       </div>
     </section>
 
+    <!-- Footer -->
     <footer class="footer">
       <div class="container">
         <div class="row">
@@ -638,7 +686,7 @@
           </div>
           <div class="col-md-6">
             <div class="scroll-top">
-              <a href=""><i class="fa fa-angle-up"></i></a>
+              <a href="#home"><i class="fa fa-angle-up"></i></a>
             </div>
           </div>
         </div>
