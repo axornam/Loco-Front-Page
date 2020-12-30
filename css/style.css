@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   /* font-family: Helvetica, sans-serif; */
   overflow-y: scroll;
