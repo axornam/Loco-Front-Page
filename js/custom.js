@@ -102,3 +102,19 @@ $(document).ready(function () {
     });
   });
 });
+
+// Add automatice padding size to header section
+$(document).ready(function () {
+  "use strict";
+
+  setInterval(function () {
+    "use strict";
+    let winHeight = $(window).height();
+    let containerHeight = $(".header-container").height();
+    let padTop = winHeight - containerHeight;
+    $(".header-container").css({
+      "padding-top": Math.round(padTop / 2) + "px",
+      "padding-bottom": Math.round(padTop / 2) + "px",
+    });
+  }, 10);
+});
