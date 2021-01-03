@@ -134,3 +134,9 @@ $(document).ready(function () {
 $(document).ready(function () {
   $(".counter-number").counterUp({ delay: 10, time: 2000 });
 });
+
+// Initialize WoW.js file
+$(document).ready(function () {
+  "use strict";
+  new WOW().init();
+});
