@@ -129,3 +129,8 @@ $(document).ready(function () {
     slideMargin: 50,
   });
 });
+
+// Add Counter Animation to Numbers
+$(document).ready(function () {
+  $(".counter-number").counterUp({ delay: 10, time: 2000 });
+});
